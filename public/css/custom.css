@@ -1,0 +1,50 @@
+.hidden {
+    display: none;
+}
+
+
+.avatar-small {
+    width:32px;
+    height:32px;
+    border-radius:50%;
+}
+.date-small {
+    font-size: 10px;
+}
+
+.tweet-wrp {
+    margin-bottom:15px;
+}
+.tweet-wrp textarea {
+    width:100%;
+    height:90px;
+    border:solid 1px #ddd;
+    margin-bottom:5px;
+}
+
+.post-wrp {
+    margin-bottom:10px;
+}
+.post-header {
+    margin-bottom:10px;
+    padding-left:40px;
+}
+.post-header .avatar-small {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+
+.btn-favorite {
+    width:16px;
+    height:19px;
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn-favorite-active {
+    background-image: url(../images/heart_active.png);
+}
+.btn-favorite-inactive {
+    background-image: url(../images/heart_inactive.png);
+}
